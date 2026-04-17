@@ -65,7 +65,7 @@ sequenceDiagram
 > **Note:** Add screenshots here inside the `/screenshots` directory.
 
 ### Registration Screen
-![Registration Screen Placeholder](client/src/assets/Screenshot 2026-04-17 183636.png)
+![Registration Screen Placeholder](client/src/assets/Screenshot 2026-04-17 183651.png)
 
 ### Login Screen
 ![Login Screen Placeholder](client/src/assets/Screenshot 2026-04-17 183636.png)
