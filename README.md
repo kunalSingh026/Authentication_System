@@ -65,13 +65,13 @@ sequenceDiagram
 > **Note:** Add screenshots here inside the `screenshot` directory.
 
 ### Registration Screen
-![Registration Screen Placeholder](screenshot/Screenshot 2026-04-17 183651.png)
+![Registration Screen](screenshot/Registration.png)
 
 ### Login Screen
-![Login Screen Placeholder](screenshot/Screenshot 2026-04-17 183636.png)
+![Login Screen](screenshot/Login.png)
 
 ### Dashboard
-![Dashboard Screen Placeholder](screenshot/Screenshot 2026-04-17 183718.png)
+![Dashboard Screen](screenshot/Dashboard.png)
 
 ## Tech Stack
 
