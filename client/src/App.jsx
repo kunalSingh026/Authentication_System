@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import VerifyEmail from './pages/VerifyEmail';
 import Dashboard from './pages/Dashboard';
+import NotFound from './pages/NotFound';
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
@@ -46,10 +47,17 @@ const App = () => {
           <Route path="/register" element={<PublicRoute><Register /></PublicRoute>} />
           <Route path="/verify-email" element={<PublicRoute><VerifyEmail /></PublicRoute>} />
           <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+          <Route path="*" element={<ProtectedSection><NotFound /></ProtectedSection>} />
         </Routes>
       </Router>
     </AuthProvider>
   );
+};
+
+const ProtectedSection = ({ children }) => {
+  const { loading } = useAuth();
+  if (loading) return null;
+  return children;
 };
 
 export default App;
