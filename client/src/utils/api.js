@@ -45,7 +45,6 @@ api.interceptors.response.use((response) => {
     } catch (refreshError) {
       // Refresh failed (e.g., revoked, expired). Clean up.
       localStorage.removeItem('accessToken');
-      window.location.href = '/login';
       return Promise.reject(refreshError);
     }
   }
