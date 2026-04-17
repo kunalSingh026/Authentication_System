@@ -71,7 +71,7 @@ sequenceDiagram
 ![Login Screen Placeholder](client/src/assets/Screenshot 2026-04-17 183636.png)
 
 ### Dashboard
-![Dashboard Screen Placeholder](client/src/assets/Screenshot 2026-04-17 183636.png)
+![Dashboard Screen Placeholder](client/src/assets/Screenshot 2026-04-17 183718.png)
 
 ## Tech Stack
 
