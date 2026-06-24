@@ -78,3 +78,5 @@ sequenceDiagram
 - **Frontend:** React, React Router, Vite, Axios, Vanilla CSS (Premium Glassmorphism).
 - **Backend:** Node.js, Express, Mongoose, JsonWebToken, Nodemailer, Cookie-parser.
 - **Database:** MongoDB (Atlas).
+
+Made by Kunal.
