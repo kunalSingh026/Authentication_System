@@ -79,4 +79,4 @@ sequenceDiagram
 - **Backend:** Node.js, Express, Mongoose, JsonWebToken, Nodemailer, Cookie-parser.
 - **Database:** MongoDB (Atlas).
 
-Made by Kunal.
+Made by Kunal Kumar Singh.
