@@ -4,7 +4,7 @@ A comprehensive, production-ready full-stack authentication system built using R
 
 ## Features & Workflow
 
-### 1. Registration Flow
+### 1. Registration Flow...
 - **User Input:** Username, Email, and strongly validated Password.
 - **Backend Processing:** Checks for existing emails/usernames, hashes the password via `crypto`, and creates an unverified user record.
 - **OTP Generation & Mailing:** A secure 6-digit OTP is generated, hashed, and stored in the database. The plain OTP is sent to the user's provided email via `nodemailer`.
